@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Figtree' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/7e768d5c87.js" crossorigin="anonymous"></script>
+    <title>CSS Gallery</title>
+</head>
+<body>
+
+<!-- nav and hero -->
+<div class="nav-background">
+    <div class="nav-container">
+        <div class="logo"><i class="fa-brands fa-css3-alt"></i> CSS GALLERY</div>
+        <div class="gh"><a href="https://github.com/marginofaaron" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+    </div>
+</div>
+
+<div class="hero-banner">
+    <div class="hero-text">
+        <h1>Welcome 👋</h1>
+        <p class="kicker">This page holds examples of some of the things I have learned to do with CSS. It was created with only vanilla HTML and CSS; no JavaScript, libraries, frameworks, or anything like that </p>
+          <!-- Trigger Button -->
+        <a href="#modal" class="open-btn">🤔 Why do this?</a>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+<div class="modal-content">
+    <a href="#" class="close-btn">&times;</a>
+    <h2>Because CSS can do a lot 👍</h2>
+    <p>And you can make a page look really nice without overcomplicating it. Like interactive modal windows, with no JavaScript!</p>
+</div>
+</div>
+
+<!-- three columns -->
+<div class="three-c">
+    <div class="gallery-header">
+        <h2 id="gallery">Responsive Cards</h2>
+        <p>Hover over a card to bring into focus</p>
+    </div>
+    <div class="three-c-container">
+        <div class="three-c-item">
+            <div class="three-c-content">
+                <div class="three-c-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h2>Some</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <div class="btn-main">And</div>
+            </div>        
+        </div>
+        <div class="three-c-item">
+            <div class="three-c-content">
+                <div class="three-c-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h2>Nice</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+             <div class="btn-main">Some</div>
+            </div>
+        </div>
+        <div class="three-c-item">
+            <div class="three-c-content">
+                <div class="three-c-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h2>Boxes</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="btn-main">Buttons</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- image gallery -->
+<div class="gallery">
+    <div class="gallery-wrapper">
+        <div class="gallery-header">
+            <h2 id="gallery">Interactive Image Gallery</h2>
+            <p>Click to expand each image!</p>
+        </div>
+
+        <input type="checkbox" id="show-more" class="show-more-checkbox">
+
+        <div class="g-container">
+            <div class="g-item">
+                <a id="img-1" href="#img1-ex">
+                    <img src="/assets/clay-banks-nsAn3nSW5T0-unsplash.jpg" alt="Chicago River">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Clay Banks</a> on <a href="https://unsplash.com/photos/a-view-of-a-city-from-a-bridge-nsAn3nSW5T0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item">
+                <a id="img-2" href="#img2-ex">
+                    <img src="/assets/wes-hicks-ZW6RUvsaFTc-unsplash.jpg" alt="Appalachian Mountains">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@sickhews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Wes Hicks</a> on <a href="https://unsplash.com/photos/green-mountains-under-white-sky-during-daytime-ZW6RUvsaFTc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></div>
+                </a>
+            </div>
+            <div class="g-item">
+                <a id="img-3" href="#img3-ex">
+                    <img src="/assets/james-wheeler-ZOA-cqKuJAA-unsplash.jpg" alt="Orange Mountain">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">James Wheeler</a> on <a href="https://unsplash.com/photos/mountain-reflection-on-body-of-water-ZOA-cqKuJAA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-4" href="#img4-ex">
+                    <img src="/assets/todd-quackenbush-GMTx7uC6lNc-unsplash.jpg" alt="Empire State">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@toddquackenbush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Todd Quackenbush</a> on <a href="https://unsplash.com/photos/silver-high-rise-building-during-daytime-GMTx7uC6lNc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-5" href="#img5-ex">
+                    <img src="/assets/denys-nevozhai-HhmCIJTLuGY-unsplash.jpg" alt="Flatiron Building">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@dnevozhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Denys Nevozhai</a> on <a href="https://unsplash.com/photos/beige-concrete-building-near-cars-HhmCIJTLuGY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-6" href="#img6-ex">
+                    <img src="/assets/matt-hardy-6ArTTluciuA-unsplash.jpg" alt="Ocean waves">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@matthardy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Matt Hardy</a> on <a href="https://unsplash.com/photos/body-of-water-under-sky-6ArTTluciuA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-7" href="#img7-ex">
+                    <img src="/assets/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg" alt="Mushroom">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@flovayn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Florian van Duyn</a> on <a href="https://unsplash.com/photos/red-and-white-mushroom-Dm-qxdynoEc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-8" href="#img8-ex">
+                    <img src="/assets/luca-bravo-gjzk2bxe71U-unsplash.jpg" alt="Rocky shore">
+                    <div class="g-caption">Photo by <a href="https://unsplash.com/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Luca Bravo</a> on <a href="https://unsplash.com/photos/rock-formation-island-near-coastal-rocks-under-nimbus-clouds-gjzk2bxe71U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                    </div>
+                </a>
+            </div>
+            <div class="g-item g-item-hidden">
+                <a id="img-9" href="#img9-ex">
+                    <img src="/assets/flower.jpeg" alt="Bee on a flower">
+                    <div class="g-caption">Photo by Me 😎</div>
+                </a>
+            </div>
+        </div>
+        <label for="show-more" class="show-more-btn">See More</label>
+    </div>
+</div>
+
+<!-- Fullscreen image overlays -->
+<div id="img1-ex" class="fullscreen-overlay">
+    <a href="#img-1" class="fullscreen-close">&times;</a>
+    <img src="/assets/clay-banks-nsAn3nSW5T0-unsplash.jpg" alt="Chicago River">
+</div>
+
+<div id="img2-ex" class="fullscreen-overlay">
+    <a href="#img-2" class="fullscreen-close">&times;</a>
+    <img src="/assets/wes-hicks-ZW6RUvsaFTc-unsplash.jpg" alt="Appalachian Mountains">
+</div>
+
+<div id="img3-ex" class="fullscreen-overlay">
+    <a href="#img-3" class="fullscreen-close">&times;</a>
+    <img src="/assets/james-wheeler-ZOA-cqKuJAA-unsplash.jpg" alt="Orange Mountain">
+</div>
+
+<div id="img4-ex" class="fullscreen-overlay">
+    <a href="#img-4" class="fullscreen-close">&times;</a>
+    <img src="/assets/todd-quackenbush-GMTx7uC6lNc-unsplash.jpg" alt="Empire State">
+</div>
+
+<div id="img5-ex" class="fullscreen-overlay">
+    <a href="#img-5" class="fullscreen-close">&times;</a>
+    <img src="/assets/denys-nevozhai-HhmCIJTLuGY-unsplash.jpg" alt="Flatiron Building">
+</div>
+
+<div id="img6-ex" class="fullscreen-overlay">
+    <a href="#img-6" class="fullscreen-close">&times;</a>
+    <img src="/assets/matt-hardy-6ArTTluciuA-unsplash.jpg" alt="Ocean waves">
+</div>
+
+<div id="img7-ex" class="fullscreen-overlay">
+    <a href="#img-7" class="fullscreen-close">&times;</a>
+    <img src="/assets/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg" alt="Mushroom">
+</div>
+
+<div id="img8-ex" class="fullscreen-overlay">
+    <a href="#img-8" class="fullscreen-close">&times;</a>
+    <img src="/assets/luca-bravo-gjzk2bxe71U-unsplash.jpg" alt="Rocky shore">
+</div>
+
+<div id="img9-ex" class="fullscreen-overlay">
+    <a href="#img-9" class="fullscreen-close">&times;</a>
+    <img src="/assets/flower.jpeg" alt="Bee on a flower">
+</div>
+
+<!-- vertical content -->
+
+<div class="v-container">
+
+   <!-- Section 1 -->
+   <div class="section">
+    <div class="section-icon">
+      <i class="fa-solid fa-people-group"></i>
+    </div>
+    <div class="section-content">
+      <h2>Section Heading One</h2>
+      <p>
+        This section contains descriptive boilerplate text. It explains
+        expectations and provides helpful information to the reader.
+      </p>
+
+      <ul>
+        <li>First bullet point example</li>
+        <li>Second bullet point example</li>
+        <li>Third bullet point example</li>
+        <li>Fourth bullet point example</li>
+      </ul>
+
+      <p>
+        Additional paragraph text can appear below the list to provide
+        more clarification and guidance.
+      </p>
+    </div>
+  </div>
+
+    <div class="divider"></div>
+
+    <!-- Section 2 -->
+    <div class="section">
+      <div class="section-icon">
+        <i class="fa-solid fa-lightbulb"></i>
+      </div>
+      <div class="section-content">
+        <h2>Section Heading Two</h2>
+        <p>
+          This section contains descriptive boilerplate text. It explains
+          expectations and provides helpful information to the reader.
+        </p>
+
+        <ul>
+          <li>First bullet point example</li>
+          <li>Second bullet point example</li>
+          <li>Third bullet point example</li>
+          <li>Fourth bullet point example</li>
+        </ul>
+
+        <p>
+          Additional paragraph text can appear below the list to provide
+          more clarification and guidance.
+        </p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Section 2 -->
+    <div class="section">
+      <div class="section-icon">
+        <i class="fa-solid fa-clipboard-list"></i>
+      </div>
+      <div class="section-content">
+        <h2>Section Heading Three</h2>
+        <p>
+          This section provides instructions or next steps. The layout
+          continues using flexbox to align the icon and content side-by-side.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+<!-- cta box -->
+ <div class="cta-container">
+    <div class="cta-wrapper">
+        <div class="cta-box">
+            <h2>Call to Action Box</h2>
+            <p>
+            Click this <a href="#">link</a> to take action (jk it doesn't do anything)
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <small>
+        <address>Created just for &#127881; by <a href="https://github.com/marginofaaron" target="_blank">Aaron Olson</a></address>
+    </small>
+</footer>
+
+</body>
+</html>
